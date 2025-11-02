@@ -1,28 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SwiftCaps | Custom Swim Caps</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Swift Kit — Custom Swim Caps for Clubs & Events</title>
+  <meta name="description" content="Swift Kit supplies high-quality custom silicone swim caps for clubs, schools, and events with fast turnarounds and expert design support." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Swift Kit — Custom Swim Caps" />
+  <meta property="og:description" content="High-quality custom silicone swim caps for clubs, schools & events." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.swiftkit.co.uk/" />
+  <meta property="og:image" content="https://www.swiftkit.co.uk/images/social-cover.jpg" />
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="images/favicon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>SwiftCaps</h1>
-    <p>Custom Swim Caps for Clubs, Schools & Events</p>
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Swift Kit Home">
+        <img src="images/logo.svg" alt="" class="brand-mark" />
+        <span class="brand-text">Swift Kit</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">What we do</a></li>
+          <li><a href="#cases">Cases</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact" class="btn btn--small">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <section id="about">
-    <h2>About Us</h2>
-    <p>We produce high-quality silicone swim caps with your club logo. Fast turnaround, competitive pricing, and full design support.</p>
-  </section>
-  <section id="gallery">
-    <h2>Our Work</h2>
-    <img src="images/example1.jpg" alt="Club Swim Cap">
-    <img src="images/example2.jpg" alt="Event Swim Cap">
-  </section>
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:hello@swiftcaps.co.uk">hello@swiftcaps.co.uk</a></p>
-  </section>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Custom Swim Caps for Clubs & Events</h1>
+          <p>Premium silicone caps with your logo, delivered fast. Design support included, low minimum orders, reliable timelines.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#contact">Get a quote</a>
+            <a class="btn btn--ghost" href="#cases">See our work</a>
+          </div>
+          <ul class="hero-bullets">
+            <li>✔ High-quality silicone</li>
+            <li>✔ 1–3 colour prints (metallic inks available)</li>
+            <li>✔ Bulk discounts & flexible MOQs</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <img src="images/hero-caps.jpg" alt="Selection of custom swim caps with club logos" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>About Swift Kit</h2>
+          <p>We supply clubs, schools, and race organisers with durable, great-looking custom swim caps. We keep it simple: clear pricing, quick artwork proofs, dependable delivery.</p>
+          <p>Founded by swimmers for swimmers — we know what looks good poolside and race-day.</p>
+        </div>
+        <div class="card stats">
+          <div class="stat">
+            <span class="stat-num">10k+</span>
+            <span class="stat-label">Caps delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">7–14d</span>
+            <span class="stat-label">Typical lead time*</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">98%</span>
+            <span class="stat-label">On-time rate</span>
+          </div>
+          <p class="footnote">*Lead times vary with season & quantity.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- What we do -->
+    <section id="services" class="section section--alt">
+      <div class="container">
+        <h2>What we do</h2>
+        <div class="cards-3">
+          <article class="card">
+            <img src="images/service-silicone.jpg" alt="Silicone swim cap close-up" />
+            <h3>Silicone caps</h3>
+            <p>Soft, long-lasting silicone with crisp logos and colour fidelity. Junior & adult sizes.</p>
+          </article>
+          <article class="card">
+            <img src="images/service-design.jpg" alt="Design software mockup" />
+            <h3>Artwork & design</h3>
+            <p>Send a logo (PNG/SVG/AI) and we’ll create proofs. Need tweaks? We’ll help — no fuss.</p>
+          </article>
+          <article class="card">
+            <img src="images/service-events.jpg" alt="Open water event swimmers" />
+            <h3>Events & races</h3>
+            <p>Colour-coded waves, sponsor logos, sequential numbering on request.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cases / Gallery -->
+    <section id="cases" class="section">
+      <div class="container">
+        <h2>Recent work</h2>
+        <p class="section-lead">A few examples from clubs and events we’ve supplied.</p>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="images/case-01.jpg" alt="Navy cap with white crest logo" />
+            <figcaption>Downing College Boat Club</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/case-02.jpg" alt="Yellow cap with black club logo" />
+            <figcaption>City Tri Club</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/case-03.jpg" alt="Pink event cap with numbering" />
+            <figcaption>Open-Water Series #3</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/case-04.jpg" alt="Black cap with metallic silver print" />
+            <figcaption>Masters Swim Squad</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/case-05.jpg" alt="Blue cap with white shield" />
+            <figcaption>University Swim Team</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/case-06.jpg" alt="Red cap with bold text logo" />
+            <figcaption>Junior League Meet</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="section section--alt">
+      <div class="container">
+        <h2>How it works</h2>
+        <ol class="steps">
+          <li><strong>Send your logo</strong> — PNG/SVG/AI + quantity & colours.</li>
+          <li><strong>Approve your proof</strong> — we send a visual in 24–48h.</li>
+          <li><strong>We produce & ship</strong> — tracked delivery to your club.</li>
+        </ol>
+        <a class="btn" href="#contact">Start your order</a>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2>Simple pricing</h2>
+        <p class="section-lead">Transparent per-unit pricing with volume discounts.</p>
+        <div class="pricing">
+          <div class="price-card">
+            <h3>Club Run</h3>
+            <p class="price">from £<span>3.20</span>/cap</p>
+            <ul>
+              <li>≥ 100 caps</li>
+              <li>1–2 print colours</li>
+              <li>Proof included</li>
+            </ul>
+          </div>
+          <div class="price-card price-card--accent">
+            <h3>Event Batch</h3>
+            <p class="price">from £<span>2.80</span>/cap</p>
+            <ul>
+              <li>≥ 300 caps</li>
+              <li>Colour-coded waves</li>
+              <li>Numbering available</li>
+            </ul>
+          </div>
+          <div class="price-card">
+            <h3>Custom</h3>
+            <p class="price">Let’s quote</p>
+            <ul>
+              <li>Metallic inks</li>
+              <li>Special colours/sizes</li>
+              <li>Rush options</li>
+            </ul>
+          </div>
+        </div>
+        <p class="footnote">Prices are indicative; final quote depends on colours, quantity & seasonality.</p>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section--alt">
+      <div class="container">
+        <h2>What clubs say</h2>
+        <div class="quotes">
+          <blockquote class="quote">
+            <p>“Great quality and the logo looks spot on. Arrived a week before our gala — perfect.”</p>
+            <cite>— Club Secretary, North East</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Swift communication, clear pricing, no surprises. We’ll reorder next term.”</p>
+            <cite>— Head Coach, University Team</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="section">
+      <div class="container">
+        <h2>FAQs</h2>
+        <details class="faq">
+          <summary>What file types do you accept?</summary>
+          <p>SVG or AI preferred for sharp prints. High-res PNG also fine.</p>
+        </details>
+        <details class="faq">
+          <summary>What are typical lead times?</summary>
+          <p>Usually 7–14 days from proof approval. Busy seasons can extend this.</p>
+        </details>
+        <details class="faq">
+          <summary>Can you help with design tweaks?</summary>
+          <p>Yes — placement, sizing, and colour matching included.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--cta">
+      <div class="container contact-grid">
+        <div>
+          <h2>Get a quote</h2>
+          <p>Send your logo, colours, and quantity — we’ll reply with a proof and pricing.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:hello@swiftkit.co.uk">hello@swiftkit.co.uk</a></li>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/447900000000">+44 7900 000000</a></li>
+            <li><strong>Instagram:</strong> <a href="https://instagram.com/swiftkit">@swiftkit</a></li>
+          </ul>
+          <div class="cta-buttons">
+            <a class="btn" href="mailto:hello@swiftkit.co.uk?subject=Swim%20Caps%20Quote&body=Hi%20Swift%20Kit%2C%0A%0AClub%2FEvent%3A%0AQuantity%3A%0AColours%3A%0ALogo%20link%3A%0ADeadline%3A%0A%0AThanks!">Email us</a>
+            <a class="btn btn--ghost" href="#cases">View cases</a>
+          </div>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/your-id" method="POST">
+          <!-- If you stay on GitHub Pages only, replace action with mailto: or use Netlify/Formspree -->
+          <label>
+            <span>Your name</span>
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Club name, quantity, colours…" required></textarea>
+          </label>
+          <button class="btn btn--full" type="submit">Send</button>
+          <p class="footnote">Submitting sends your details to us so we can reply to your enquiry.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Swift Kit. All rights reserved.</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.getElementById('nav-menu');
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      menu.classList.toggle('nav-menu--open');
+    });
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- LocalBusiness JSON-LD (edit details) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Swift Kit",
+    "url":"https://www.swiftkit.co.uk",
+    "sameAs":["https://instagram.com/swiftkit"],
+    "description":"Custom silicone swim caps for clubs, schools and events.",
+    "email":"hello@swiftkit.co.uk",
+    "telephone":"+447900000000"
+  }
+  </script>
 </body>
 </html>
